@@ -1,4 +1,4 @@
-package net.devtech.dtus.v0.api;
+package net.devtech.dtus.v0.api.base;
 
 /**
  * a measurement of luminous intensity (eg. candela)
@@ -14,6 +14,6 @@ public class LuminousIntensity {
 	 * The ratio between the luminous intensity of an IRL candle and the minecraft candle
 	 * .33333 cd/LL
 	 */
-	public static final double TO_CANDELA = 1/3f;
-	public static final double FROM_CANDELA = 3;
+	public static final double TO_CANDELAS = 1 / 3f;
+	public static final double FROM_CANDELAS = 3;
 }

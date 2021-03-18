@@ -1,4 +1,4 @@
-package net.devtech.dtus.v0.api;
+package net.devtech.dtus.v0.api.base;
 
 /**
  * an arbitrary count of something (eg. moles)

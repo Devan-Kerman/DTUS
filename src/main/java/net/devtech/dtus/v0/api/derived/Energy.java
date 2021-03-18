@@ -15,8 +15,8 @@ import net.fabricmc.fabric.api.registry.FuelRegistry;
  * Canonically the furnace is 50% efficient at transferring energy, 50% of the energy is lost to the environment via heat/sound/light
  */
 public class Energy {
-	public static final int BTT = 1;
-	public static final double BTT_D = 1d;
+	public static final int BURN_TIME_TICKS = 1;
+	public static final double BURN_TIME_TICKS_D = 1d;
 	// metric
 	/**
 	 * the ratio between the amount of energy stored in 1 cubic meter of bituminous coal and 1 block of coal.

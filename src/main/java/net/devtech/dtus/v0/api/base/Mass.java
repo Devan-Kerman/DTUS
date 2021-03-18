@@ -1,4 +1,4 @@
-package net.devtech.dtus.v0.api;
+package net.devtech.dtus.v0.api.base;
 
 import net.devtech.dtus.v0.api.derived.Energy;
 
@@ -10,14 +10,14 @@ import net.devtech.dtus.v0.api.derived.Energy;
 @SuppressWarnings ("PointlessArithmeticExpression")
 public class Mass {
 	public static final int CONQ = 1;
-	public static final double CONQ_D = Energy.BTT_D * (Time.TICKS_D * Time.TICKS_D) / (Displacement.BLOCK_LENGTH_D * Displacement.BLOCK_LENGTH_D);
+	public static final double CONQ_D = Energy.BURN_TIME_TICKS_D * (Time.TICK_D * Time.TICK_D) / (Displacement.BLOCK_LENGTH_D * Displacement.BLOCK_LENGTH_D);
 	public static final double MILLI_CONQ = CONQ_D / 1000;
 
 	// metric
 	/**
 	 * 5678.4375 kg/cq
 	 */
-	public static final double TO_KILOGRAMS = Energy.TO_JOULES * (Time.TO_SECONDS * Time.TO_SECONDS) / (Displacement.TO_METER * Displacement.TO_METER);
+	public static final double TO_KILOGRAMS = Energy.TO_JOULES * (Time.TO_SECONDS * Time.TO_SECONDS) / (Displacement.TO_METERS * Displacement.TO_METERS);
 	public static final double FROM_KILOGRAMS = 1 / TO_KILOGRAMS;
 
 	// customary

@@ -1,4 +1,4 @@
-package net.devtech.dtus.v0.api;
+package net.devtech.dtus.v0.api.base;
 
 /**
  * Electrical current is a measure of charge per second.

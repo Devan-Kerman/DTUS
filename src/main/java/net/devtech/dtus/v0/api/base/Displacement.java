@@ -1,4 +1,4 @@
-package net.devtech.dtus.v0.api;
+package net.devtech.dtus.v0.api.base;
 
 /**
  * a measurement of length (eg. meter)
@@ -19,8 +19,8 @@ public class Displacement {
 	/**
 	 * 1 m/b
 	 */
-	public static final double TO_METER = 1;
-	public static final double FROM_METER = 1 / TO_METER;
+	public static final double TO_METERS = 1;
+	public static final double FROM_METERS = 1 / TO_METERS;
 	// customary
 	public static final double TO_FEET = 3.28084d;
 	public static final double FROM_FEET = 1/TO_FEET;
