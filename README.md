@@ -1,5 +1,7 @@
 # DTUS
-a minecraft-centric coherent unit system for mods
+DevTech Unit System
+
+A minecraft-centric coherent unit system for mods
 
 
 As of right now DTUS is not 100% coherent, it is missing a unit for temperature
