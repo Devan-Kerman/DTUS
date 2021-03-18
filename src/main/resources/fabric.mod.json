@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "dtus",
+  "version": "${version}",
+  "name": "Dtus",
+  "description": "a minecraft-centric coherent unit system for mods",
+  "authors": [
+    "HalfOf2"
+  ],
+  "contact": {
+    "repo": "soontm"
+  },
+  "license": "CC0",
+  "icon": "assets/dtus/icon.png",
+  "environment": "*"
+}
